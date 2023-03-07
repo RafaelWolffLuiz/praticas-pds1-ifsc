@@ -1,14 +1,23 @@
 Em programação, o que é uma biblioteca?
- É um termo utilizado para definir o código fonte compilado, qual foi produzido por terceiros
+
+1 - É um termo utilizado para definir o código fonte compilado, qual foi produzido por terceiros
  que assim torna possível adicionar novas funções ao código fonte do software
 
-O que é a biblioteca Swing do Java e qual é o seu propósito?
-Swing é uma biblioteca do Java para criar interfaces gráficas
- 
-Quais são os componentes de interface gráfica de usuário (GUI) fornecidos pela biblioteca Swing para:
-Botão                        
-Campo de Texto               
-Caixa de Seleção           
-Barra de Progresso       
-Botão de Opção          
-Caixa de Combinação     
+2 - O que é a biblioteca Swing do Java e qual é o seu propósito?
+Swing é uma biblioteca do Java para criar interfaces gráficas.
+
+3 - Quais são os componentes de interface gráfica de usuário (GUI) fornecidos pela biblioteca Swing para:
+Botão     JButton                   
+Campo de Texto       JTextField        
+Caixa de Seleção    JCheckBox       
+Barra de Progresso    JProgressBar   
+Botão de Opção     JRadioButton 
+Caixa de Combinação  JComboBox
+
+4 - Quais são os propósitos dos layouts no Swing? E quais são os layouts possíveis?
+ Os propósitos dos layouts de swing são feitos para a organização e criação da interface , e os layouts possíveis são variados como: Botão (JButton), Campo de Texto (JTextField), caixa de seleção (JCheckBox) e etc. 
+
+5 - Como é possível fazer a validação de entrada de dados em campos de texto?
+Através do JOptionPane que fornece acesso a métodos de entrada/leitura de dados em uma pequena janela
+
+6 - 
