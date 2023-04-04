@@ -1,43 +1,43 @@
-package ex1;
+package exe1;
 
 import java.awt.EventQueue;
 
 import javax.swing.JFrame;
 import javax.swing.JPanel;
+import javax.swing.JButton;
 import javax.swing.border.EmptyBorder;
 import javax.swing.JTextField;
 import javax.swing.JLabel;
-import javax.swing.JButton;
 import java.awt.event.ActionListener;
-import java.util.ArrayList;
 import java.awt.event.ActionEvent;
+import java.util.ArrayList;
 
 public class Janela extends JFrame {
 
-	private JPanel contentPane;
-	private JTextField textNum;
-	private JTextField textResultado;
-	 ArrayList<String> par = new ArrayList();
+private JPanel contentPane;
+private JTextField textNum;
+private JTextField textResultado;
+	ArrayList<String> par = new ArrayList();
 	
-	/**
-	 * Launch the application.
-	 */
+	//
+	// Aplicação
+	//
 	public static void main(String[] args) {
 		EventQueue.invokeLater(new Runnable() {
-			public void run() {
-				try {
-					Janela frame = new Janela();
-					frame.setVisible(true);
-				} catch (Exception e) {
-					e.printStackTrace();
+	public void run() {
+	try {
+		Janela frame = new Janela();
+		frame.setVisible(true);
+      } catch (Exception e) {
+	        e.printStackTrace();
 				}
 			}
-		});
+		} );
 	}
 
-	/**
-	 * Create the frame.
-	 */
+	// 
+	// Criando Frame
+	//
 	public Janela() {
 		setDefaultCloseOperation(JFrame.EXIT_ON_CLOSE);
 		setBounds(100, 100, 450, 300);
