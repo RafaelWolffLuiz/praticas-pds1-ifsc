@@ -1,5 +1,5 @@
 package ex2;
-
+                                                   //OBTIVE ajuda do Caio para fazer, eu e ele entramos discord, e ele começou a me ensinar a como fazer cada passo
 import java.awt.EventQueue;
 
 import javax.swing.JFrame;
