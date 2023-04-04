@@ -1,12 +1,12 @@
-package ex2;
+package exe2;
                                                    //OBTIVE ajuda do Caio para fazer, eu e ele entramos discord, e ele começou a me ensinar a como fazer cada passo
 import java.awt.EventQueue;
 
 import javax.swing.JFrame;
 import javax.swing.JPanel;
-import javax.swing.border.EmptyBorder;
 import javax.swing.JTextField;
 import javax.swing.JLabel;
+import javax.swing.border.EmptyBorder;
 import javax.swing.JButton;
 import java.awt.event.ActionListener;
 import java.util.ArrayList;
@@ -19,9 +19,9 @@ public class Janela extends JFrame {
 	private JTextField textMenor;
 	private JTextField textMaior;
 	 ArrayList<String> par = new ArrayList();
-	/**
-	 * Launch the application.
-	 */
+	//
+	// Aplicação
+	//
 	public static void main(String[] args) {
 		EventQueue.invokeLater(new Runnable() {
 			public void run() {
@@ -35,9 +35,9 @@ public class Janela extends JFrame {
 		});
 	}
 
-	/**
-	 * Create the frame.
-	 */
+	//
+	// Criando Frame
+	//
 	public Janela() {
 		setDefaultCloseOperation(JFrame.EXIT_ON_CLOSE);
 		setBounds(100, 100, 450, 300);
