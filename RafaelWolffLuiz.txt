@@ -20,4 +20,8 @@ Caixa de Combinação  JComboBox
 5 - Como é possível fazer a validação de entrada de dados em campos de texto?
 Através do JOptionPane que fornece acesso a métodos de entrada/leitura de dados em uma pequena janela
 
-6 - 
+6 - Pesquise e descreva três principais características entre a biblioteca Swing, a biblioteca AWT (Abstract Window Toolkit) e o JavaFX?
+Swing: O Swing é uma biblioteca gráfica, qual fornece componentes de interface do usuário muito bons. Além de ter temas personalizados e recursos de internacionalização, possui opções avançadas de desenho e manipulação de imagens.
+AWT: A biblioteca AWT é um versão anterior da Swing e por isso possui menos recursos, sendo eles: Um conjunto básico na criação das interfaces gráficas do usuário. E os aplicativos podem possuir diferentes aparências dependendo do sistema operacional.
+JAVAFX: Usa a Linguagem de marcação XML para determinar a interface do usuário, assim se tornando mais fácil e rápido o desenvolvimento. Assim como AWT e Swing, detém um conjunto de componentes como botões, menus, tabelas e gráficos. É muito rica em recursos e com facilidade de uso na criação dos aplicativos de interface do usuário.
+       Ambas as 3, fornecem um conjunto de componentes de UI para criar interfaces gráficas de usuário em Java.
