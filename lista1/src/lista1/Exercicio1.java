@@ -2,8 +2,7 @@ package lista1;
 
 import javax.swing.JOptionPane;
 import java.util.ArrayList;
-   // Utilizei, CHATGPT para poder compreender como fazer e aprender, YT e alguns sites e também ajuda de amigos,
-   // tenho muita dificuldade mas estou sendo sincero. Caio me ajudando entrando call discord.
+
 public class CalctotulPag {
 public static void main(String[] args) {
        
